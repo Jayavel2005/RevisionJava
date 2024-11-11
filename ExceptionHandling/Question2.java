@@ -1,20 +1,22 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Question2 {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        int n = scanner.nextInt();
+
         try{
+            int n = scanner.nextInt();
             if(n % 2 != 0){
-                throw new Exception("It is an odd");
+                throw new Exception("The number sis Odd");
             }
             else{
-                System.out.println("Its an even");
+                System.out.println("it is even");
             }
-        }
-        catch(Exception e){
-            System.out.println(e. getMessage());
+            
+        }catch(Exception e){
+            System.out.println(e);
         }
     }
 }

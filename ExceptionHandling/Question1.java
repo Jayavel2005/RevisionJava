@@ -8,11 +8,11 @@ public class Question1 {
             int n1 = scanner.nextInt();
             int n2 = scanner.nextInt();
             int result = n1 / n2;
-            System.out.println("Result: " + result);
+
+            System.out.println(result);
+        
+        }catch(ArithmeticException e){
+            System.out.println(e);
         }
-        catch(ArithmeticException e){
-            System.out.println(e.getMessage());
-        }
-    
     }
 }
